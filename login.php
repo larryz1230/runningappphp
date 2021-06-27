@@ -25,6 +25,11 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
             $index['email'] = $row['email'];
             $index['id'] = $row['id'];
            $index['distance'] = $row['distance'];
+           $index['lat'] = $row['lat'];
+           $index['lng'] = $row['lng'];
+           $index['credits'] = $row['credits'];
+
+
         
 
             array_push($result['login'], $index);
